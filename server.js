@@ -14,7 +14,6 @@ mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
     useCreateIndex: true,
     // useUnifiedTopology:true
-//
 });
 
 const connection = mongoose.connection;
