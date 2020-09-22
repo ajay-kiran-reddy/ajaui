@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.title{
+    font-family: 'Pacifico', cursive !important;
+    font-size:40px;
+    color: whitesmoke;
+    float: left;
+    text-align: start;
+    padding-left:20px ;
+    width:60%;
+    cursor: pointer;
+}
+
+.navbar{
+    width:100%;
+    background-color: lightseagreen;
+    display: flex;
+}
+
+.post{
+    float: right;
+    width:5%;
+    text-align: center;
+    padding: 10px;
+}
+
+.profile{
+    float: right;
+    width:5%;
+    padding: 10px;
+}
+
+.postParent{
+    width: 100%;
+    text-align: -webkit-center;
+}
+.createPost{
+    width: 600px;
+    text-align: center;
+}
+
+.profileHeader{
+    width: 100%;
+}
+
+.thumbnail{
+    width: 100%;
+    display: flex;
+}
+
+.thumbnailDiv {
+    width: 220px;
+    height: 220px;
+    line-height: 200px;
+    border-radius: 50%;
+    font-size: 20px;
+    word-break:break-word;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+   float: left;
+}
+
+.profileStats{
+    width: 100%;
+    float: right;
+    text-align: center;
+    display: flex;
+}
+
+.userName{
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.profileName{
+    textAlign: center;
+    float: left;
+    font-family: 'Pacifico', cursive !important;
+    font-size:25px;
+    color: black;
+    float: left;
+    text-align: start;
+    padding: 3% 3% 3% 20px;
+}
+
+.subHeaders{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.subHeadersValues{
+    font-size: 18px;
+    padding: 20px;
+}
